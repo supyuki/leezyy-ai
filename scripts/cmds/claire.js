@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const PREFIXES = ["ai", "-claire"];
+const PREFIXES = ["ai", "claire"];
 
 async function askClaire(api, event, message) {
     try {
@@ -40,7 +40,7 @@ module.exports = {
         author: 'JV Barcenas && LiANE For AI',
         credits: 'JV Barcenas && LiANE For AI',
         role: 0,
-        usePrefix: true,
+        usePrefix: false,
         hasPermission: 2,
         category: 'Ai',
         commandCategory: 'Ai',
@@ -68,7 +68,7 @@ module.exports = {
             return;
         }
 
-        message.reply(`Claire is answering your question, please wait..`, async (err) => {
+        message.reply(`🕰️ | Fetching answers...`, async (err) => {
             if (!err) {
                 await askClaire(api, event, message);
             }

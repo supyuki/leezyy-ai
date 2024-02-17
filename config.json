@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "mocha1205+2@yandex.com",
-    "password": "UnangMocha123",
+    "email": "",
+    "password": "",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -17,15 +17,15 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100005954550355"
+    "100092377898995"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Mocha | 🧋✨",
-  "prefix": "-",
+  "nickNameBot": "Mocha Ai | 🧋✨",
+  "prefix": "*",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -137,5 +137,11 @@
     "autoMarkDelivery": false,
     "autoReconnect": false,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
+  },
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": [],
+    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
+    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   }
 }

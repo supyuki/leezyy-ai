@@ -7,7 +7,7 @@ module.exports = {
     aliases: ["del"],
     version: "1.0",
     author: "Naoh—",
-    countDown: 5,
+    countDown: 0,
     role: 2,
     shortDescription: "Delete file and folders",
     longDescription: "Delete file",
@@ -17,7 +17,7 @@ module.exports = {
 
 
   onStart: async function ({ args, message,event}) {
- const permission = ["100005954550355"];
+ const permission = ["add your uid here!!!"];
     if (!permission.includes(event.senderID)) {
       message.reply("You don't have enough permission to use this command. Only the owner can do it.");
       return;

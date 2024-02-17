@@ -80,7 +80,7 @@ async function gpt(text, userID, message, mid, api) {
     tracker[userID] = `${tracker[userID]}${text}.\n${resultText}`;
 
     api.setMessageReaction('✅', mid, () => {}, true);
-    message.reply(`${resultText}\n\n𝙔𝙤𝙪 𝙘𝙖𝙣 𝙧𝙚𝙥𝙡𝙮 𝙩𝙤 𝙘𝙤𝙣𝙩𝙞𝙣𝙪𝙚 𝙘𝙝𝙖𝙩𝙩𝙞𝙣𝙜.`, (error, info) => {
+    message.reply(`${resultText}\n\n𝗬𝗼𝘂 𝗰𝗮𝗻 𝗿𝗲𝗽𝗹𝘆 𝘁𝗼 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗲 𝗰𝗵𝗮𝘁𝘁𝗶𝗻𝗴.`, (error, info) => {
       global.GoatBot.onReply.set(info.messageID, {
         commandName: 'gpt',
         author: userID,
