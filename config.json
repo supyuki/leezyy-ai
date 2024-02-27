@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "anya@rentforsale7.com",
-    "password": "anyav5",
+    "email": "favan12580@gearstag.com",
+    "password": "sobiteyyy",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -17,14 +17,14 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100092377898995"
+    "100083234618117"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Mocha Ai | 🧋✨",
+  "nickNameBot": "Leeza Ai | 🧋✨",
   "prefix": "*",
   "database": {
     "type": "sqlite",
