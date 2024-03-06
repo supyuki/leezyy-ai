@@ -4,14 +4,14 @@ module.exports = {
   config: {
     name: 'nica',
     version: '1.0',
-    author: 'LiANE @nealianacagara',
+    author: 'Leeza AI',
     role: 0,
     category: 'Ai-Chat',
     shortDescription: {
-      en: `Enjoy Nica AI! One of the most advanced technology from this website.`
+      en: `Enjoy Nica AI! One of the most advanced technologies from this website.`
     },
     longDescription: {
-      en: `Enjoy Nica AI! One of the most advanced technology from this website.`
+      en: `Enjoy Nica AI! One of the most advanced technologies from this website.`
     },
     guide: {
       en: '{pn}nica [query]'
@@ -39,3 +39,10 @@ module.exports = {
           await api.sendMessage({ body: trimmedMessage }, event.threadID, event.messageID);
 
           console.log(`Sent 🔎 Nica's response to the user`);
+        }
+      }
+    } catch (error) {
+      console.error('Error in onStart function:', error);
+    }
+  }
+};
